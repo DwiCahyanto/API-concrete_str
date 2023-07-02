@@ -1,0 +1,20 @@
+#INITIAL SETTINGS
+data_source:
+  directory: ../data/
+  filename: Concrete_Data.xls
+  column_names: ["Cement","BFS","Fly_Ash","Water",
+                 "Superplasticizer","Coarse_Aggregate","Fine_Aggregate",
+                 "Age","Concrete_compressive_strength"]
+  drop_columns: ['BFS']
+  target_name: 'Concrete_compressive_strength'
+  test_size: 0.25
+  random_state: 20
+
+
+#kNN parameters
+model:
+    random_state : 123 
+    max_iter : 600
+    solver : "adam"
+    model_directory: ../model/
+    model_name: model-yaml-format
