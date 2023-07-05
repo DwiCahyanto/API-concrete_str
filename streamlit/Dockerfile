@@ -1,6 +1,6 @@
 
 # pull official base image
-FROM python:3.9.15-slim-buster
+FROM python:3.10-slim
 
 # set work directory
 WORKDIR /home
@@ -12,8 +12,8 @@ COPY . .
 RUN \
 pip install -r requierments.txt
 
-EXPOSE 8000
+EXPOSE 8501
 
 # run the command
-CMD ["python", "con_str-api-staging.py"]
+CMD ["streamlit", "run", "conc-streamlit.py"]
 
