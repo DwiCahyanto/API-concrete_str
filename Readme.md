@@ -7,9 +7,10 @@ Repositi ini berisi aplikasi machine learning end to end dengan streamlit dan fa
 ![Diagram persiapan data](https://media.licdn.com/dms/image/C4E12AQFXLdW70AMxVA/article-inline_image-shrink_1000_1488/0/1528755587142?e=1694044800&v=beta&t=qkurOJUlMkMyP2tIdODVdOf1wHG0laziB_c-NE0BpTQ)
 
 
-## Pemodelan dan evaluasi 
+## Feature engineer
 ![Diagram persiapan data](https://github.com/DwiCahyanto/API-concrete_str/blob/master/references/feature_engieer.drawio.png)
-## Feature engineering 
+
+## Pemodelan dan evaluasi 
 
 ![Diagram persiapan data](https://github.com/DwiCahyanto/API-concrete_str/blob/master/references/Model_diagram.drawio.png)
 ## API Reference
